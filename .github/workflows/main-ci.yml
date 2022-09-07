@@ -8,4 +8,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - run: 'sleep 2m '
     - run: 'echo "main build required" '
