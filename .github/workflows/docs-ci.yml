@@ -3,7 +3,7 @@ on:
   push:
     paths-ignore:
       - 'scripts/**'
-      - 'middleware/**'
+      # - 'middleware/**'
 jobs:
   build:
     runs-on: ubuntu-latest
