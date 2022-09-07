@@ -1,9 +1,8 @@
 name: ci
 on:
-  push:
+  pull_request:
     paths-ignore:
       - 'scripts/**'
-      - 'middleware/**'
 jobs:
   build:
     runs-on: ubuntu-latest
