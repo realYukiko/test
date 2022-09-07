@@ -1,4 +1,4 @@
-name: ci
+name: main-ci
 on:
   pull_request:
     paths:
