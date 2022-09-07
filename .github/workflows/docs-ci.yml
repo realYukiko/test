@@ -1,6 +1,6 @@
 name: ci
 on:
-  pull_request:
+  push:
     paths-ignore:
       - 'scripts/**'
       - 'middleware/**'
