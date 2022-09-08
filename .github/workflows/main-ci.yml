@@ -1,4 +1,4 @@
-name: main-ci
+name: ci
 on:
   pull_request:
     paths:
@@ -8,5 +8,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - run: 'sleep 2m '
-    - run: 'echo "main build required" '
+    - run: 'sleep 2m'
+    - run: 'echo "Main build required" '
